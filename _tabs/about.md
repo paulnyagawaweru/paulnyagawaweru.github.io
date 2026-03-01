@@ -2,7 +2,15 @@
 title: PAUL NYAGA WAWERU
 subtitle: Electrical and Electronics Engineering Graduate | Radio Network Planning & Optimization Specialist
 author: Nairobi, Kenya
-date: today
+date: <script>
+function pad(n) { return n < 10 ? '0' + n : n; }
+var d = new Date();
+document.write(
+  d.getFullYear() + '-' + 
+  pad(d.getMonth()+1) + '-' + 
+  pad(d.getDate())
+);
+</script>
 geometry: margin=0.8in
 fontsize: 11pt
 ---
